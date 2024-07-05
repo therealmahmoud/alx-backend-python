@@ -3,9 +3,9 @@
 from typing import Any, Sequence, Union, TypeVar
 
 
-NoneType = TypeVar("NoneType")
-""" A type-annotated function. """
-def safe_first_element(lst: Sequence[Any]) -> Union[Any, NoneType]:
+
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
+    """ A type-annotated function. """
     if lst:
         return lst[0]
     else:
