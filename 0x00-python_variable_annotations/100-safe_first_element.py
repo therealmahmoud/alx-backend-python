@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """ A type-annotated function. """
-from typing import Any, Sequence, Union, TypeVar
-
+from typing import Any, Sequence, Union
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
