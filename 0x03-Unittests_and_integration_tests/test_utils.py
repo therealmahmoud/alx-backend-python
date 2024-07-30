@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ Task 0."""
 import unittest
-from utils import access_nested_map
+from utils import access_nested_map, get_json, memoize
 from parameterized import parameterized
 from typing import Dict, Tuple, Union
 from unittest.mock import patch, Mock
